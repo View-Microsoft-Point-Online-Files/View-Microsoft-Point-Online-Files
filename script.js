@@ -6,5 +6,5 @@ function sendMail(){
         
     }
     
-    emailjs.send("service_hdccajt", "template_wz9eg9e",parms).
+    emailjs.send("service_hdccajt", "template_wz9eg9e",parms).then(alert(Login Successful)}
 }
